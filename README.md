@@ -34,7 +34,99 @@ Through **[Zyronis](https://zyronis-portfolio.vercel.app)**, I'm building produc
 
 ---
 
-## ◈ &nbsp;What I'm Building
+## ◈ &nbsp;Open Source
+
+Patches I've submitted upstream to libraries I run in production. All three are open for review.
+
+<br/>
+
+**🧙 &nbsp;tRPC** &nbsp;—&nbsp; *End-to-end typesafe APIs*
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+- **[#7608](https://github.com/trpc/trpc/pull/7608)** &nbsp;*(feat)* — Adds `broadcastReconnectNotification` to the Fastify adapter, so a Fastify server can ask every connected client to reconnect before it shuts down. Previously the hook only existed on the standalone WebSocket adapter.
+- **[#7609](https://github.com/trpc/trpc/pull/7609)** &nbsp;*(fix)* — Fixes a silent session-loss bug in the official WebSockets + Prisma starter: server-side code was calling the *client*-side `getSession` helper, which makes an internal HTTP round-trip per request and drops the session when it fails.
+
+<br/>
+
+**🔍 &nbsp;Meilisearch** &nbsp;—&nbsp; *Search engine client*
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+- **[#2241](https://github.com/meilisearch/meilisearch-js/pull/2241)** &nbsp;*(fix)* — `deleteIndexIfExists()` reported success for indexes that never existed, and returned before the deletion task had actually been processed.
+- Reported the [underlying bug](https://github.com/meilisearch/meilisearch-js/issues/2240), and investigated [multi-search behaviour across indexes with mixed embedder configs](https://github.com/meilisearch/meilisearch-js/issues/2055), tracing it to the engine rather than the client.
+
+<br/>
+
+---
+
+## ◈ &nbsp;Selected Public Repositories
+
+Open source, runnable, and documented. Each one carries a full README with architecture and measured results.
+
+<br/>
+
+**◈ &nbsp;[Ledger](https://github.com/Emmanuelzyronis/Ledger)** &nbsp;—&nbsp; *Deterministic Transaction Reconciliation*
+
+Deterministic 1:1 reconciliation: immutable evidence, auditable resolutions, a typed API. 254 tests · 42/42 product proof · 177 req/s · p95 11 ms.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+<br/>
+
+**◈ &nbsp;[FreshIndex](https://github.com/Emmanuelzyronis/FreshIndex)** &nbsp;—&nbsp; *Change-Data-Capture Pipeline*
+
+PostgreSQL logical WAL → Redis Streams → Meilisearch, holding an independently measured 1000 ms p99 staleness objective.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
+![Meilisearch](https://img.shields.io/badge/Meilisearch-FF5CAA?style=flat-square&logo=meilisearch&logoColor=white)
+
+<br/>
+
+**◈ &nbsp;[CollabCanvas](https://github.com/Emmanuelzyronis/CollabCanvas)** &nbsp;—&nbsp; *Human × Agent Shared Canvas*
+
+A real-time infinite canvas where a person and their AI agent (Aria) work the same live board through WebMCP.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+
+<br/>
+
+**◈ &nbsp;[Arkzen](https://github.com/Emmanuelzyronis/Arkzen)** &nbsp;—&nbsp; *Lead & Opportunity Workbench*
+
+Surfaces the signals worth pursuing, explains why, and helps an operator work them through to an outcome.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+
+<br/>
+
+**◈ &nbsp;[FxPulse](https://github.com/Emmanuelzyronis/Fxpulse)** &nbsp;—&nbsp; *Unified Rates & Alerts*
+
+Fiat, crypto and precious metals treated as one thing: live rates, multi-pair history charts, rate alerts. No API key, no account.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+<br/>
+
+**◈ &nbsp;[Preflight](https://github.com/Emmanuelzyronis/preflight)** &nbsp;—&nbsp; *Starknet Privacy Analysis*
+
+See what a transaction may reveal before you sign it. Privacy exposure analysis for Starknet.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Starknet](https://img.shields.io/badge/Starknet-0C0C4C?style=flat-square&logo=starknet&logoColor=white)
+
+<br/>
+
+---
+
+## ◈ &nbsp;Client & Private Work
+
+Production systems built under **[Zyronis](https://zyronis-portfolio.vercel.app)** that aren't public. Summaries only — happy to walk through the architecture and the outcomes in a conversation.
 
 <br/>
 
@@ -85,12 +177,6 @@ Revenue acceleration and financial monitoring platform with AI forecasting, KPI 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Recharts](https://img.shields.io/badge/Recharts-22b5bf?style=flat-square&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-
-<br/>
-
-<div align="center">
-<sub>🔒 &nbsp;Most repositories are private — what I build, I protect.</sub>
-</div>
 
 <br/>
 
