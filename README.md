@@ -36,7 +36,7 @@ Through **[Zyronis](https://zyronis-portfolio.vercel.app)**, I'm building produc
 
 ## ◈ &nbsp;Open Source
 
-Patches I've submitted upstream to libraries I run in production. All three are open for review.
+Patches I've submitted upstream to libraries I run in production. All four are open for review.
 
 <br/>
 
@@ -55,6 +55,14 @@ Patches I've submitted upstream to libraries I run in production. All three are 
 
 - **[#2241](https://github.com/meilisearch/meilisearch-js/pull/2241)** &nbsp;*(fix)* — `deleteIndexIfExists()` reported success for indexes that never existed, and returned before the deletion task had actually been processed.
 - Reported the [underlying bug](https://github.com/meilisearch/meilisearch-js/issues/2240), and investigated [multi-search behaviour across indexes with mixed embedder configs](https://github.com/meilisearch/meilisearch-js/issues/2055), tracing it to the engine rather than the client.
+
+<br/>
+
+**🧩 &nbsp;Payload** &nbsp;—&nbsp; *Next.js CMS*
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+- **[#18248](https://github.com/payloadcms/payload/pull/18248)** &nbsp;*(fix)* — A nested Local API call that passed its own `req` together with a different `locale` leaked that locale onto the caller's request, so `beforeChange` merged the submitted values into the wrong locale. Fixes the data-corruption path reported in [#18246](https://github.com/payloadcms/payload/issues/18246).
 
 <br/>
 
