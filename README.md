@@ -1,20 +1,16 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=D4AF37&height=200&section=header&text=Emmanuel%20Ibiezugbe&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=AI%20Systems%20Architect%20%C2%B7%20Product%20Builder%20%C2%B7%20Founder&descAlignY=58&descSize=16&descColor=ffffff99&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=CC3024&height=200&section=header&text=Emmanuel%20Ibiezugbe&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Independent%20Engineer%20%C2%B7%20Correctness%20First&descAlignY=58&descSize=16&descColor=ffffff99&animation=fadeIn" width="100%"/>
 
 <br/>
 
-<a href="https://zyronis-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-zyronis--portfolio.vercel.app-D4AF37?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0a0a0a" /></a>
-&nbsp;
-<a href="https://wa.me/2348151613794"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=0a0a0a" /></a>
-&nbsp;
-<a href="https://discord.com/users/emmanuelzyronis"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0a0a0a" /></a>
+<a href="https://emmanuelibiezugbe.com"><img src="https://img.shields.io/badge/Portfolio-emmanuelibiezugbe.com-CC3024?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0a0a0a" /></a>
 &nbsp;
 <a href="mailto:ibiezugbeemmanuel@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0a0a" /></a>
 
 <br/><br/>
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&pause=1000&color=D4AF37&center=true&vCenter=true&width=600&lines=Building+AI-powered+business+infrastructure;Fintech+%C2%B7+Enterprise+Software+%C2%B7+AI+Systems;Most+businesses+don't+need+more+software...;They+need+better+systems.)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&pause=1000&color=CC3024&center=true&vCenter=true&width=650&lines=I+build+software+you+can+audit%2C+explain%2C+and+trust.;Financial+systems+%C2%B7+Real-time+pipelines+%C2%B7+AI+tooling;Correctness+is+an+engineering+property%2C+not+a+quality.)
 
 </div>
 
@@ -24,11 +20,115 @@
 
 ## ◈ &nbsp;About
 
-> *Most businesses don't need more software. They need **better systems**.*
+> *I take on work where correctness matters — where a wrong answer has real consequences and a right answer requires careful engineering.*
 
-I design and build intelligent platforms that combine AI, automation, analytics, and modern engineering to solve real business problems. My work spans fintech, enterprise software, AI systems, business intelligence, and scalable SaaS — always with a focus on operational impact, not just technical elegance.
+I'm an independent engineer working across product, systems, automation, and AI. Most of what I build is at the intersection of complexity and constraint: financial systems that need to be auditable, pipelines that need to be fast and correct, automations that need to work reliably without supervision.
 
-Through **[Zyronis](https://zyronis-portfolio.vercel.app)**, I'm building products that help organizations operate more efficiently while laying the foundation for the next generation of AI-powered digital ecosystems.
+Available for focused, **[project-based work](mailto:ibiezugbeemmanuel@gmail.com)**. I reply within one business day.
+
+<br/>
+
+---
+
+## ◈ &nbsp;How I Work
+
+| | |
+|---|---|
+| **Start from the constraint** | Before choosing tools or architecture, I want to understand what correctness means for the problem — what the failure modes are, how they would be detected, and what the cost of getting it wrong is. |
+| **Evidence over assertion** | I measure what I claim. If a change is supposed to make something faster, I benchmark it. If a system is supposed to handle edge cases, I write tests that hit them. Claims without evidence are not engineering. |
+| **Simplicity is a feature** | Complex systems fail in complex ways. I prefer the simpler solution that can be understood, audited, and debugged over the clever one that requires remembering how it works. |
+| **Write it down** | Good decisions lose value if they can't be explained. I document architecture, tradeoffs, and reasoning — not because it's required, but because it's part of the work. |
+
+<br/>
+
+---
+
+## ◈ &nbsp;Selected Work
+
+<br/>
+
+**◈ &nbsp;[LEDGER](https://github.com/Emmanuelzyronis/Ledger)** &nbsp;—&nbsp; *Deterministic Transaction Reconciliation Engine*
+
+Production reconciliation engine. Ingests two independent financial record sets, classifies every record pair across seven exhaustive outcomes (MATCHED / MISMATCHED / AMBIGUOUS / UNMATCHED / DUPLICATE / INVALID), and produces an immutable, auditable decision for each — deterministically. Append-only audit log in-transaction with every state write. Generated TypeScript client from OpenAPI 3.1 — the frontend cannot call an endpoint that does not exist.
+
+`254 tests` &nbsp;·&nbsp; `42/42 product proof checks` &nbsp;·&nbsp; `0 security findings` &nbsp;·&nbsp; `95.5 rec/s` &nbsp;·&nbsp; `p95 11 ms` &nbsp;·&nbsp; `RPO ≤ 15 min · RTO ≤ 30 min` &nbsp;·&nbsp; `v1.0.0 · 2026-09-19`
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![OpenAPI](https://img.shields.io/badge/OpenAPI_3.1-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white)
+
+<br/>
+
+**◈ &nbsp;[FreshIndex](https://github.com/Emmanuelzyronis/FreshIndex)** &nbsp;—&nbsp; *PostgreSQL CDC Pipeline with a p99 Staleness Guarantee*
+
+WAL-based change-data-capture pipeline: PostgreSQL logical replication → Redis Streams → Meilisearch, with an independent staleness monitor that measures commit-to-search visibility from the outside — sharing no code or infrastructure with the indexer. p99 of 221 ms against a 1,000 ms target. 4.5× inside the objective. 300 mutations. Zero violations. Zero dead-letter messages.
+
+`p50 151 ms` &nbsp;·&nbsp; `p95 207 ms` &nbsp;·&nbsp; `p99 221 ms / 1,000 ms target` &nbsp;·&nbsp; `300 mutations · 0 violations` &nbsp;·&nbsp; `0 dead-letter messages`
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis_Streams-FF4438?style=flat-square&logo=redis&logoColor=white)
+![Meilisearch](https://img.shields.io/badge/Meilisearch-FF5CAA?style=flat-square&logo=meilisearch&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+<br/>
+
+**◈ &nbsp;MailFlow AI** &nbsp;—&nbsp; *Human-supervised AI Email Operations* &nbsp;`private`
+
+Six-stage pipeline (receive → triage → draft → evaluate → approve → send). Structured output slots — the model fills defined fields rather than composing freely, which makes the evaluate step tractable. An adversarial self-review prompt before any human sees the draft. A required approve gate enforced structurally in code — there is no pathway that sends an email before reaching the approved state. Full audit trail per email including all model outputs and the approval decision.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-412991?style=flat-square&logoColor=white)
+![Gmail API](https://img.shields.io/badge/Gmail_API-EA4335?style=flat-square&logo=gmail&logoColor=white)
+
+<br/>
+
+**◈ &nbsp;[ArkZen](https://github.com/Emmanuelzyronis/Arkzen)** &nbsp;—&nbsp; *AI-assisted Lead Acquisition Workbench*
+
+Nine-stage pipeline (DISCOVER → FILTER → SCORE → RESEARCH → QUALIFY → STRATEGIZE → ENGAGE → CLOSE → OUTCOME). Explainable 0–100 score built from named checks — Fit, Intent, Urgency, Reachability — each resolved as pass / warn / **unknown**. Unknown is a first-class outcome, never collapsed into false confidence. Human in control of every engagement decision. Deterministic fallback if the model is unavailable; interface is identical either way.
+
+`126 Vitest tests · 12 files` &nbsp;·&nbsp; `dual SQLite / Postgres backend` &nbsp;·&nbsp; `browser verification gate (1440px + 390px · both themes)`
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Tailwind 4](https://img.shields.io/badge/Tailwind_4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+<br/>
+
+**◈ &nbsp;[ArkOne](https://github.com/Emmanuelzyronis/ArkOne)** &nbsp;—&nbsp; *AI-Native CRM* &nbsp;[↗ live](https://arkone-ten.vercel.app)
+
+Sales CRM where the AI copilot is grounded in live deal data before every response — so "what should I focus on this week?" gets a real answer, not a guess. Kanban pipeline with optimistic drag-and-drop. CSV import with column auto-mapping. One-click demo seed (15 realistic deals, 6 companies, $947K pipeline, 67% win rate). Org-scoped auth via Clerk; Supabase RLS enforces team-level data isolation at the database layer.
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=flat-square&logo=clerk&logoColor=white)
+![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+
+<br/>
+
+**◈ &nbsp;[CollabCanvas](https://github.com/Emmanuelzyronis/CollabCanvas)** &nbsp;—&nbsp; *Human × Agent Shared Canvas*
+
+Real-time collaborative canvas where a human and an AI agent (Aria) edit the same live board through WebMCP. Symmetric architecture: human and agent use identical Zustand store actions; only the author field (`'human'` | `'agent'`) differs. 33 WebMCP tools on `document.modelContext`. 15-layer Design Graph backed by PostgreSQL. Built for the OpenAI WebMCP Challenge.
+
+`197 Vitest tests` &nbsp;·&nbsp; `33 WebMCP tools` &nbsp;·&nbsp; `15-layer Design Graph`
+
+![React 18](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vite 8](https://img.shields.io/badge/Vite_8-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-433E38?style=flat-square&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![WebMCP](https://img.shields.io/badge/WebMCP-000000?style=flat-square&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
 <br/>
 
@@ -36,7 +136,7 @@ Through **[Zyronis](https://zyronis-portfolio.vercel.app)**, I'm building produc
 
 ## ◈ &nbsp;Open Source
 
-Patches I've submitted upstream to libraries I run in production. All four are open for review.
+Patches submitted upstream to libraries I run in production. All CI green, awaiting maintainer review. Each was mutation-tested before submission — reverting only the changed file makes the new test fail.
 
 <br/>
 
@@ -53,138 +153,15 @@ Patches I've submitted upstream to libraries I run in production. All four are o
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-- **[#2241](https://github.com/meilisearch/meilisearch-js/pull/2241)** &nbsp;*(fix)* — `deleteIndexIfExists()` reported success for indexes that never existed, and returned before the deletion task had actually been processed.
-- Reported the [underlying bug](https://github.com/meilisearch/meilisearch-js/issues/2240), and investigated [multi-search behaviour across indexes with mixed embedder configs](https://github.com/meilisearch/meilisearch-js/issues/2055), tracing it to the engine rather than the client.
+- **[#2241](https://github.com/meilisearch/meilisearch-js/pull/2241)** &nbsp;*(fix)* — `deleteIndexIfExists()` reported success for indexes that never existed, and returned before the deletion task had been processed. Filed [#2240](https://github.com/meilisearch/meilisearch-js/issues/2240) to document the investigation before submitting the PR. 1,670 existing tests still passing.
 
 <br/>
 
-**🧩 &nbsp;Payload** &nbsp;—&nbsp; *Next.js CMS*
+**🧩 &nbsp;Payload CMS** &nbsp;—&nbsp; *Next.js CMS*
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-- **[#18248](https://github.com/payloadcms/payload/pull/18248)** &nbsp;*(fix)* — A nested Local API call that passed its own `req` together with a different `locale` leaked that locale onto the caller's request, so `beforeChange` merged the submitted values into the wrong locale. Fixes the data-corruption path reported in [#18246](https://github.com/payloadcms/payload/issues/18246).
-
-<br/>
-
----
-
-## ◈ &nbsp;Selected Public Repositories
-
-Open source, runnable, and documented. Each one carries a full README with architecture and measured results.
-
-<br/>
-
-**◈ &nbsp;[Ledger](https://github.com/Emmanuelzyronis/Ledger)** &nbsp;—&nbsp; *Deterministic Transaction Reconciliation*
-
-Deterministic 1:1 reconciliation: immutable evidence, auditable resolutions, a typed API. 254 tests · 42/42 product proof · 177 req/s · p95 11 ms.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-
-<br/>
-
-**◈ &nbsp;[FreshIndex](https://github.com/Emmanuelzyronis/FreshIndex)** &nbsp;—&nbsp; *Change-Data-Capture Pipeline*
-
-PostgreSQL logical WAL → Redis Streams → Meilisearch, holding an independently measured 1000 ms p99 staleness objective.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
-![Meilisearch](https://img.shields.io/badge/Meilisearch-FF5CAA?style=flat-square&logo=meilisearch&logoColor=white)
-
-<br/>
-
-**◈ &nbsp;[CollabCanvas](https://github.com/Emmanuelzyronis/CollabCanvas)** &nbsp;—&nbsp; *Human × Agent Shared Canvas*
-
-A real-time infinite canvas where a person and their AI agent (Aria) work the same live board through WebMCP.
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-
-<br/>
-
-**◈ &nbsp;[Arkzen](https://github.com/Emmanuelzyronis/Arkzen)** &nbsp;—&nbsp; *Lead & Opportunity Workbench*
-
-Surfaces the signals worth pursuing, explains why, and helps an operator work them through to an outcome.
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-
-<br/>
-
-**◈ &nbsp;[FxPulse](https://github.com/Emmanuelzyronis/Fxpulse)** &nbsp;—&nbsp; *Unified Rates & Alerts*
-
-Fiat, crypto and precious metals treated as one thing: live rates, multi-pair history charts, rate alerts. No API key, no account.
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-
-<br/>
-
-**◈ &nbsp;[Preflight](https://github.com/Emmanuelzyronis/preflight)** &nbsp;—&nbsp; *Starknet Privacy Analysis*
-
-See what a transaction may reveal before you sign it. Privacy exposure analysis for Starknet.
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Starknet](https://img.shields.io/badge/Starknet-0C0C4C?style=flat-square&logo=starknet&logoColor=white)
-
-<br/>
-
----
-
-## ◈ &nbsp;Client & Private Work
-
-Production systems built under **[Zyronis](https://zyronis-portfolio.vercel.app)** that aren't public. Summaries only — happy to walk through the architecture and the outcomes in a conversation.
-
-<br/>
-
-**🔶 &nbsp;Zyronis-Recon** &nbsp;—&nbsp; *Enterprise Financial Reconciliation Platform*
-
-Intelligent reconciliation engine that makes the obvious 90% invisible and the remaining 10% fast, explainable, and low-risk to approve.
-
-![Rust](https://img.shields.io/badge/Rust-CE422B?style=flat-square&logo=rust&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black)
-![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=flat-square&logoColor=white)
-![Claude API](https://img.shields.io/badge/Claude_API-D4AF37?style=flat-square&logo=anthropic&logoColor=black)
-
-<br/>
-
-**🏢 &nbsp;Arkynex** &nbsp;—&nbsp; *AI-Native Real Estate CRM*
-
-Full-stack CRM for real estate agents with AI lead scoring, nightly briefings, deal pipeline tracking, and performance dashboards.
-
-![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![Edge Functions](https://img.shields.io/badge/Edge_Functions-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-
-<br/>
-
-**🎓 &nbsp;AI School Management** &nbsp;—&nbsp; *Education Platform*
-
-Comprehensive school administration platform enhanced with AI to simplify operations, improve communication, and surface actionable insights for educators and administrators.
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-
-<br/>
-
-**📊 &nbsp;Cashflow Radar** &nbsp;—&nbsp; *Business Intelligence Dashboard*
-
-Revenue acceleration and financial monitoring platform with AI forecasting, KPI tracking, expense analytics, and smart recommendations.
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Recharts](https://img.shields.io/badge/Recharts-22b5bf?style=flat-square&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+- **[#18248](https://github.com/payloadcms/payload/pull/18248)** &nbsp;*(fix)* — A nested Local API call that passed its own `req` with a different `locale` leaked that locale onto the caller's request, so `beforeChange` merged values into the wrong locale. Fixes the data-corruption path from [#18246](https://github.com/payloadcms/payload/issues/18246). 9/9 CI checks green.
 
 <br/>
 
@@ -197,10 +174,9 @@ Revenue acceleration and financial monitoring platform with AI forecasting, KPI 
 **Languages**
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-CE422B?style=flat-square&logo=rust&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
 <br/>
 
@@ -209,27 +185,29 @@ Revenue acceleration and financial monitoring platform with AI forecasting, KPI 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
-![Recharts](https://img.shields.io/badge/Recharts-22b5bf?style=flat-square&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-433E38?style=flat-square&logoColor=white)
 
 <br/>
 
 **Backend & Infrastructure**
 
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=flat-square&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis_Streams-FF4438?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 
 <br/>
 
-**AI & Data**
+**AI & Search**
 
-![Claude](https://img.shields.io/badge/Claude_API-D4AF37?style=flat-square&logo=anthropic&logoColor=black)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black)
+![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-412991?style=flat-square&logoColor=white)
+![Meilisearch](https://img.shields.io/badge/Meilisearch-FF5CAA?style=flat-square&logo=meilisearch&logoColor=white)
+![WebMCP](https://img.shields.io/badge/WebMCP-000000?style=flat-square&logoColor=white)
 
 </div>
 
@@ -241,11 +219,11 @@ Revenue acceleration and financial monitoring platform with AI forecasting, KPI 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Emmanuelzyronis&show_icons=true&theme=transparent&title_color=D4AF37&icon_color=D4AF37&text_color=ffffff&border_color=D4AF3730&include_all_commits=true&count_private=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Emmanuelzyronis&show_icons=true&theme=transparent&title_color=CC3024&icon_color=CC3024&text_color=ffffff&border_color=CC302430&include_all_commits=true&count_private=true" height="165"/>
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Emmanuelzyronis&layout=compact&theme=transparent&title_color=D4AF37&text_color=ffffff&border_color=D4AF3730&langs_count=6" height="140"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Emmanuelzyronis&layout=compact&theme=transparent&title_color=CC3024&text_color=ffffff&border_color=CC302430&langs_count=6" height="140"/>
 
 </div>
 
@@ -255,18 +233,18 @@ Revenue acceleration and financial monitoring platform with AI forecasting, KPI 
 
 <div align="center">
 
-**Founder & CEO — Zyronis**
+**Independent Engineer**
 
-*Available for select partnerships and consulting engagements.*
+*Available for focused, project-based work. I reply within one business day.*
 
 <br/>
 
-<a href="https://zyronis-portfolio.vercel.app/#contact">
-  <img src="https://img.shields.io/badge/→%20Work%20With%20Me-D4AF37?style=for-the-badge&logoColor=black&labelColor=D4AF37&color=0a0a0a" />
+<a href="mailto:ibiezugbeemmanuel@gmail.com">
+  <img src="https://img.shields.io/badge/→%20ibiezugbeemmanuel%40gmail.com-CC3024?style=for-the-badge&logoColor=white&labelColor=0a0a0a&color=CC3024" />
 </a>
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=D4AF37&height=120&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=CC3024&height=120&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
